@@ -1,0 +1,39 @@
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+*.log
+npm-debug.log*
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Runtime data / user records
+data/
+
+# Android / Gradle local and generated files
+.gradle/
+**/build/
+local.properties
+android/local.properties
+android/keystore.properties
+*.jks
+*.keystore
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+.externalNativeBuild/
+.cxx/
+.idea/
+*.iml
+.DS_Store
+
+# Local project archives
+*.zip
+*.bak
+*.bak*

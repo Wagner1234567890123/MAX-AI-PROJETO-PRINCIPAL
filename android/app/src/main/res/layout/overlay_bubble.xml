@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overlay_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/overlay_bubble"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_overlay_bubble"
+        android:gravity="center"
+        android:text="MP"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:elevation="8dp" />
+
+    <LinearLayout
+        android:id="@+id/overlay_panel"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/bg_overlay_panel"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MAX PERFORMANCE"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/overlay_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="FPS 90 · Boost ON"
+            android:textColor="#FF9B9B"
+            android:textSize="10sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="320dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/overlay_btn_fps"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:background="@drawable/bg_overlay_button"
+                    android:text="FPS Alvo: 90"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/overlay_btn_slow"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/bg_overlay_button"
+                    android:text="Boneco Lento: OFF"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/overlay_btn_economy"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/bg_overlay_button"
+                    android:text="Modo Economia: OFF"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/overlay_btn_gpu"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/bg_overlay_button"
+                    android:text="GPU Alto: ON"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/overlay_btn_opts"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/bg_overlay_button"
+                    android:text="Otimizações: ON"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/overlay_btn_boost"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/bg_overlay_button"
+                    android:text="Boost: ON"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/overlay_btn_disable_all"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/bg_overlay_close"
+                    android:text="Desativar Tudo"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/overlay_btn_restore"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/bg_overlay_button"
+                    android:text="Restaurar Anterior"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/overlay_btn_hide_panel"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/bg_overlay_button"
+                    android:text="Fechar Painel"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/overlay_btn_close"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/bg_overlay_close"
+                    android:text="Ocultar Bolinha"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="11sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

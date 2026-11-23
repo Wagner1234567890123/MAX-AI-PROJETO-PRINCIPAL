@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "348509814709",
+    "project_id": "max-performance-552ca",
+    "storage_bucket": "max-performance-552ca.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348509814709:android:ff22b7fb2dd05b6cf1a3fc",
+        "android_client_info": {
+          "package_name": "com.maxperformance.nexus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348509814709-qd95uoi4qv85uevm1j0bmn8vne7t386q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maxperformance.nexus",
+            "certificate_hash": "d6d3894cc96d8bc5d437dd7e9f8af014a1d14a56"
+          }
+        },
+        {
+          "client_id": "348509814709-rjle10accn1vs2e6i0cdcptncb01j0ct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAl_pF0wmYc5KEGFi5AxKN2TUxcjLXoGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348509814709-rjle10accn1vs2e6i0cdcptncb01j0ct.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+{
+  "appId": "com.maxperformance.nexus",
+  "appName": "MAX PERFORMANCE",
+  "webDir": "dist",
+  "plugins": {
+    "FirebaseAuthentication": {
+      "providers": ["google.com"]
+    }
+  }
+}
